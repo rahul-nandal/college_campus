@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes Upload</title>
+    <link rel="stylesheet" type="text/css" href="/styles/notes.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="icon" href="assets/images/logo_main.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    
+</head>
+<body>
+    <header>
+        <a href="/"><img src="/Resources/favicon.ico" alt="Home"></a>
+    </header>
+    <div class="container">
+        <h1>Upload File</h1>
+        <form action="/notes/upload" method="post" enctype="multipart/form-data">
+            <label for="file-upload" class="file-upload-container">
+                <i class="fas fa-cloud-upload-alt"></i> Click to upload
+                <input id="file-upload" type="file" name="file" multiple>
+            </label>
+            <p id="file-count">No files selected</p>
+            <div class="button-container">
+                <a href="/notes/history" class="history-button">History</a>
+                <button type="submit" class="upload-button">Upload</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div id="main_footer">
+          <div id="footer_content">
+           
+          </div>
+          <!-- <hr class="gap" /> -->
+          <ul id="social">
+            <li class="icon"><a href="#" class="fa fa-facebook"></a></li>
+            <li class="icon"><a href="#" class="fa fa-instagram"></a></li>
+            <li class="icon"><a href="#" class="fa fa-youtube"></a></li>
+            <li class="icon"><a href="#" class="fa fa-twitter"></a></li>
+            <li class="icon"><a href="#" class="fa fa-linkedin"></a></li>
+            <li><a href="#" class="fa fa-pinterest"></a></li>
+          </ul>
+          <hr class="gap" />
+            <div id="copyright">
+            <div>
+              <p id="lighter">&#169; Copyright <span class="bold">ConvoSpace</span>. All Rights Reserved <br> Designed
+                by <a id="rahul" href="https://github.com/Rahul0Nandal/Project" target="_blank">Rahul & Rohit</p>
+            </div>
+        </div>
+      </footer>
+    <script src="/script/notes.js"></script>
+</body>
+</html>

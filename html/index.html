@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="/styles/index.css">
+    <link rel="icon" href="assets/images/logo_main.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+</head>
+<body>
+    <main>
+        <header>
+            <!-- <img src="/Resources/favicon.ico" class="favicon" onclick="scrollToTop()"> -->
+            <!-- <p>ConvoSpace</p> -->
+            <a href="#" class="nav_logo" style="text-decoration: none;font-size: 20px;
+            color: white;
+            vertical-align: middle;
+            align-items: center;">
+                <img src="/Resources/favicon.ico" alt="logo" class="logo" style="display: inline;
+                width: 30px;
+                height: 30px;
+                vertical-align: middle;"> ConvoSpace
+            </a>
+            <div class="top-right-links" >
+                <a href="/study_material" class="top-right-link">Books</a>
+                <a href="#" class="top-right-link">IDE</a>
+                <a href="/chat" class="top-right-link">Chat</a>
+                <a href="#" class="top-right-link">Notes</a>
+                <a href="/webscraper" class="top-right-link">Webscraper</a>
+                
+                <div class="account-container">
+                    <div class="account-icon">
+                        <div class="nav_action_button" style="color: white;">
+                            <span class="material-symbols-outlined nav_login" id="nav_login">
+                                account_circle
+                            </span>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <div class="user-info">
+                            <p style="display: inline;"><strong style="font-weight: 800;">Name:</strong></p>
+                            <input type="text"  id="usernameInput" class="username" placeholder="username...">
+                            <p ><strong style="font-weight: 800;">Email:</strong>
+                                <input type="text"  id="emailInput" class="username" placeholder="email..."</p>
+                        </div>
+                        <div class="logout_button">
+                        <a href="#" target="_blank" class="logout" onclick="logout()">&nbsp;&nbsp;Log out&nbsp;&nbsp;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </header>
+        
+        <div id="home" class="page">
+
+            <div id="toptext">
+                <p id="t1"> CONVOSPACE
+                </p>
+                <b>
+                    <p id="t2" class="ml3">Let's decode the college. </p>
+                </b>
+                <!-- <p id="t2"> The <span style="color: #20a4f3;">Future</span> belongs to the <span style="color: #20a4f3;"> Curious</span>.</p> -->
+        
+        
+            </div>
+        </div>
+        <div id="study_material" class="page">
+            <h2>Books</h2>
+            <p>Explore a vast collection of study materials and resources covering a wide range of subjects. From textbooks to reference guides, our library is curated to support learners at every level, providing valuable resources for academic excellence and self-improvement.</p>
+            <a href="/study_material" id="redirect" style="padding-left: 120px;">Explore</a>
+        </div>
+        <div id="ide" class="page">
+            <h2>IDE</h2>
+            <p>Immerse yourself in a seamless coding experience with our integrated development environment. Designed to streamline your workflow and enhance productivity, our IDE offers powerful features such as code editing, debugging, and project management, empowering developers to bring their ideas to life efficiently.</p>
+            <a href="/ide" id="redirect" style="padding-left: 110px;">Try Now</a>
+        </div>
+        <div id="chat" class="page">
+            <h2>Group Chat</h2>
+            <p>Join our vibrant community and engage in real-time conversations with like-minded individuals from around the world. Whether you're seeking advice, sharing insights, or simply connecting with others, our group chat platform provides a welcoming space for meaningful discussions and collaboration.</p>
+            <a href="/chat" id="redirect" style="padding-left: 90px;">Join Chat</a>
+        </div>
+        <div id="notes" class="page">
+            <h2>Notes</h2>
+            <p>Stay organized and productive with our intuitive note-taking platform. Capture ideas, jot down important reminders, and keep track of tasks effortlessly. With features such as categorization, search functionality, and synchronization across devices, managing your notes has never been easier.</p>
+            <a href="/notes" id="redirect" style="padding-left: 90px;">View Notes</a>
+        </div>
+        <div id="webscraper" class="page">
+            <h2>Webscraper</h2>
+            <p style="margin-left: -150px;">Unlock the power of data extraction with our advanced webscraper tool. Seamlessly gather information from websites with ease, enabling you to analyze trends, gather insights, and make informed decisions. Whether for research, analysis, or business intelligence, our webscraper simplifies the process of data collection, saving you time and effort.</p>
+            <a href="/webscraper" id="redirect">Scrape Webpages</a>
+        </div>
+    </main>
+    <footer>
+        <div id="main_footer">
+          <div id="footer_content">
+           
+          </div>
+          <!-- <hr class="gap" /> -->
+          <ul id="social">
+            <li class="icon"><a href="#" class="fa fa-facebook"></a></li>
+            <li class="icon"><a href="#" class="fa fa-instagram"></a></li>
+            <li class="icon"><a href="#" class="fa fa-youtube"></a></li>
+            <li class="icon"><a href="#" class="fa fa-twitter"></a></li>
+            <li class="icon"><a href="#" class="fa fa-linkedin"></a></li>
+            <li><a href="#" class="fa fa-pinterest"></a></li>
+          </ul>
+          <hr class="gap" />
+            <div id="copyright">
+            <div>
+              <p id="lighter">&#169; Copyright <span class="bold">ConvoSpace</span>. All Rights Reserved <br> Designed
+                by <a id="rahul" href="https://github.com/Rahul0Nandal/Project" target="_blank">Rahul & Rohit</p>
+            </div>
+        </div>
+      </footer>
+    <script src="/script/index.js"></script>
+    <script src="https://unpkg.com/rellax"></script>
+    <script>
+        var rellax = new Rellax('.parallax-section');
+    </script>
+    <script>
+        // Optional: Add interactivity to toggle dropdown (if hover behavior isn't enough)
+        const accountContainer = document.querySelector('.account-container');
+        const dropdown = document.querySelector('.dropdown');
+    
+        accountContainer.addEventListener('click', () => {
+            const isVisible = dropdown.style.display === 'block';
+            dropdown.style.display = isVisible ? 'none' : 'block';
+        });
+    
+        document.addEventListener('click', (e) => {
+            if (!accountContainer.contains(e.target)) {
+                dropdown.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>

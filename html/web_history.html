@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webscraper History</title>
+    <link rel="stylesheet" type="text/css" href="/styles/web_history.css">
+</head>
+<body>
+    <header>
+        <a href="/"><img src="/Resources/favicon.ico" alt="Home"></a>
+    </header>
+    <h1>List of Webpages</h1>
+    <div class="upload-list">
+        <ul>
+            % for file in files:
+                <li style="margin-bottom: 15px; padding: 15px;">
+                    <span class="file-info">
+                        {{ file['name'] }}
+                    </span>
+                    <span>
+                        <a href="{{ file['download_path'] }}" class="download-button">Download</a>
+                    </span>
+                </li>
+            % end
+        </ul>
+    </div>
+    <footer>
+        <a href="https://github.com/tanubhavjuneja" style="margin-left: -20px;"><img src="/Resources/github.png" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/tanubhav-juneja-119211244/" style="margin-left: -10px;"><img src="/Resources/linkedin.png" alt="LinkedIn"></a>
+        <a href="https://buymeacoffee.com/tanubhavjuneja"><img src="/Resources/buymeacoffee.png" alt="BuyMeACoffee"></a>
+        <a href="https://www.instagram.com/tanubhavjuneja"><img src="/Resources/instagram.png" alt="Instagram"></a>
+        <a href="https://wa.me/7827139401"><img src="/Resources/whatsapp.png" alt="WhatsApp"></a>
+    </footer>
+</body>
+</html>

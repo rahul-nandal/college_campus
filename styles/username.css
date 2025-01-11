@@ -1,0 +1,209 @@
+body {
+    background-color: #2f2f2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("/Resources/bg4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.frame {
+    margin-top: -20px;
+    background-color: transparent;
+    padding: 80px; 
+}
+label {
+    color: white;
+    display: block;
+    margin-bottom: 40px; 
+    font-size: 38px;
+    text-align: center; 
+}
+.sign_up{opacity: 1;}
+
+.login{width: 30vw;}
+.sign_up{
+  width: 30vw;
+}
+.login_form,.sign_up_form{
+  background-color: transparent;
+  padding: 2rem 1.5rem 2.5rem;
+  box-shadow: 0 8px 32px hsla(228, 40%, 48%, 0.2);
+  border-radius: 1rem;
+  border: solid 2px #fff;
+  row-gap: 1.25rem;
+  text-align: center;
+  transform: translateY(-1rem);
+  transition: transform .4s;
+}
+.login_signup {
+    margin-bottom: .5rem;
+    font-size: smaller;
+    color: #fff;
+
+  }
+  .login_signup a {
+    color: black;
+  }
+  .login_forgot {
+    display: inline-block;
+    color: black;
+    font-size: smaller;
+    margin-bottom: 1.25rem;
+  }
+.login_input,
+  .sign_up_input {
+    width: 70%;
+    height: 80%;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    color: white;
+  }
+  .login_input::placeholder,
+  .sign_up_input::placeholder{
+    color: white;
+  }
+  .login_button,
+.sign_up_button{
+    display: inline-block;
+    background-color: transparent;
+    width: 30%;
+    color: white;
+    border: solid 2px white;
+    font-weight: 700;
+    /* font-size: ; */
+    padding: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: box-shadow .4s;
+}
+:is(.login_signup a,.login_forgot):hover{
+  text-decoration: underline;
+  color: rgb(73, 164, 192);
+  /* transition: text-decoration .4s; */
+}
+/* input[type="text"] {
+    padding: 20px;
+    width: 100%;
+    border-radius: 8px;
+    border: 3px solid #ccc; 
+    box-sizing: border-box;
+    background-color: transparent;
+    color: white;
+    font-size: 22px; 
+}
+input[type="submit"] {
+    padding: 20px 30px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin-left: 30%;
+    margin-top: 5%; 
+} */
+footer {
+    margin-top: 100px;
+    background-color: black; 
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    margin: none; 
+}
+footer img {
+    width: auto;
+    height: 30px;
+    margin: 0 20px;
+}
+
+
+footer {
+    /* align-items: center; */
+    background-color: black;
+    /* position: absolute; */
+  
+    background-color: black;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    bottom: 0;
+  
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+  }.gap {
+    color: black;
+    border-radius: 50%;
+    height: 2px;
+    background-color: white;
+    margin: 0 0px;
+    border: none;
+  }
+  #main_footer {
+    margin: 0 20px;
+    text-align: center;
+  }
+  #footer_content {
+    display: flex;
+    justify-content: center;
+    /* width: 200px; */
+    text-align: center;
+    /* margin: 5px 40px 10px; */
+  }
+  #content {
+    margin: 0px 0px;
+  }
+  #social {
+    /* height: 30px; */
+    /* vertical-align: middle; */
+    list-style-type: none;
+    margin: 0 1em;
+    /* overflow: hidden; */
+    background-color: black;
+    color: white;
+  
+    display: flex;
+  
+    justify-content: center;
+  }
+  #copyright {
+    display: inline-block;
+    margin: 0px;
+    border: 0;
+  }
+  #rahul {
+    text-decoration: none;
+    color: aqua;
+    text-decoration: underline;
+  }
+  .bold {
+    font-weight: 900;
+  }
+  #lighter {
+    font-weight: 100;
+    margin: 0;
+  }
+  .fa {
+    padding: 8.5px 10px;
+    /* font-size: 30px; */
+    /* width: 10px; */
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(73, 164, 192);
+  }
+  .fa:hover {
+    background-color: rgb(5, 107, 141);
+  }

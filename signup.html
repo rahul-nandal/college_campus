@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign-up</title>
+    <link rel="stylesheet" type="text/css" href="/styles/username.css">
+    <link rel="icon" href="assets/images/logo_main.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    
+</head>
+<body>
+    <!-- <div class="login" id="login">
+        <form action="" class="login_form">
+            <h2 class="login_title">Log In</h2>
+            <div class="login_group">
+                <div>
+                    <input type="username" placeholder="Enter your User-ID" id="email" class="login_input">
+                </div>
+                <div>
+                    <input type="password" placeholder="Enter your Password" id="password" class="login_input">
+                </div>
+            </div>
+            <div>
+                <p class="login_signup">
+                    Don't have an account? <a href="/signup" id="login_signup">Sign up</a>
+                </p>
+
+                <a href="#" class="login_forgot">
+                    Forgot Password
+                </a>
+                <br>
+                <button type="submit" class="login_button">Log In</button>
+            </div>
+        </form>
+        
+    </div> -->
+
+    <div class="sign_up" id="sign_up">
+        <form method = "post" action="/signup" class="sign_up_form">
+            <h2 class="sign_up_title">Sign Up</h2>
+            <div class="sign_up_group">
+                <div>
+                    <input type="text" name="username" requiredw placeholder="Username" id="first_name" class="sign_up_name sign_up_input">
+                    <!-- <input type="text" placeholder="Last Name" id="last_name" class="sign_up_name sign_up_input"> -->
+                </div>
+                <div>
+                    <input type="email" name="email" required placeholder="Enter your Email-ID" id="email" class="sign_up_input">
+                </div>
+                <div>
+                    <input type="password" name="password" required placeholder="Enter your Password" id="password" class="sign_up_input">
+                </div>
+            </div>
+            <div>
+                <p class="login_signup">
+                    Have an account? <a href="/login" id="return_login">Login</a>
+                </p><br>
+                <button type="submit" class="sign_up_button">Sign Up</button>
+            </div>
+        </form>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div id="main_footer">
+          <div id="footer_content">
+           
+          </div>
+          <!-- <hr class="gap" /> -->
+          <ul id="social">
+            <li class="icon"><a href="#" class="fa fa-facebook"></a></li>
+            <li class="icon"><a href="#" class="fa fa-instagram"></a></li>
+            <li class="icon"><a href="#" class="fa fa-youtube"></a></li>
+            <li class="icon"><a href="#" class="fa fa-twitter"></a></li>
+            <li class="icon"><a href="#" class="fa fa-linkedin"></a></li>
+            <li><a href="#" class="fa fa-pinterest"></a></li>
+          </ul>
+          <hr class="gap" />
+    
+          <div id="copyright">
+            <div>
+              <p id="lighter">&#169; Copyright <span class="bold">ConvoSpace</span>. All Rights Reserved <br> Designed
+                by <a id="rahul" href="https://github.com/Rahul0Nandal/Project" target="_blank">Rahul & Rohit</p>
+            </div>
+    
+    
+    
+        </div>
+      </footer>
+      <!-- <script src="main.js"></script> -->
+    <script src="/script/username.js"></script>
+    
+</body>
+</html>

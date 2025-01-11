@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Page</title>
+    <link rel="stylesheet" type="text/css" href="/styles/open_page.css">
+</head>
+<body>
+    <header>
+        <a href="/"><img src="/Resources/favicon.ico" alt="Home"></a>
+    </header>
+    <h1 class="open-page-heading">Open Page</h1>
+    <div class="page-list-container">
+        <ul class="page-list">
+            % for page in page_list:
+                <li><a class="page-link" href="/ide?project_name={{page}}">{{page}}</a></li>
+            % end
+            <li><a class="page-link" href="/ide">Back to IDE</a></li>
+        </ul>
+    </div>
+    <footer>
+        <a href="https://github.com/tanubhavjuneja" style="margin-left: -20px;"><img src="/Resources/github.png" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/tanubhav-juneja-119211244/" style="margin-left: -10px;"><img src="/Resources/linkedin.png" alt="LinkedIn"></a>
+        <a href="https://buymeacoffee.com/tanubhavjuneja"><img src="/Resources/buymeacoffee.png" alt="BuyMeACoffee"></a>
+        <a href="https://www.instagram.com/tanubhavjuneja"><img src="/Resources/instagram.png" alt="Instagram"></a>
+        <a href="https://wa.me/7827139401"><img src="/Resources/whatsapp.png" alt="WhatsApp"></a>
+    </footer>
+</body>
+</html>

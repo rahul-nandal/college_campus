@@ -1,0 +1,92 @@
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("/Resources/webscrapers.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: transparent;
+    padding: 10px 0;
+    text-align: center;
+    align-self: flex-start;
+    display: flex;
+    margin-top: 0px;
+    margin-left: -1850px;
+    height: 30px;
+    position: fixed;
+}
+header img{
+    size: 5px;
+    margin: 1px 10px;
+}
+.container {
+    
+    text-align: center;
+    background-color: transparent;
+    border: 0px;
+    border-radius: 106px;
+    padding: 50px;
+    margin: 0px 0px 0 100px;
+    width: 80%;
+    max-width: 700px;
+    /* padding-top: 1vh; */
+    padding-bottom: 25vh;
+    padding-right: 9vw;
+}
+#urlLabel {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 2vw;
+    margin-bottom: 50px;
+    color: white;
+}
+#urlInput {
+    height: 1vh;
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    font-size: 1vw; 
+}
+#scrapeButton,
+.history-button {
+    padding: 2px 6px;
+    font-size: large;
+    cursor: pointer;
+    background-color: transparent; 
+    color: #fff; 
+    text-decoration: none; 
+    border: solid 2px white;
+    border-radius: 36px;
+    margin-top: 50px;
+    display: inline-block; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+footer {
+    margin-top: 100px;
+    background-color: black; 
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    margin: none; 
+}
+footer img {
+    width: auto;
+    height: 30px;
+    margin: 0 20px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Chat</title>
+    <link rel="icon" href="assets/images/logo_main.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="stylesheet" type="text/css" href="/styles/index.css">
+    
+    <link rel="stylesheet" type="text/css" href="/styles/chat.css">
+</head>
+<body>
+    <div id="header">
+        <a href="/"><img src="/Resources/favicon.ico" alt="Home"></a>
+        <input type="text" onchange="changeUsername()" id="usernameInput" placeholder="Enter your username...">
+    </div>
+    <div id="chatFrame"></div>
+    <div id="messageInputContainer">
+        <input type="text" id="messageInput" placeholder="Type your message...">
+        <button onclick="sendMessage()" id="sendButton">Send</button>
+    </div>
+    
+    
+<footer>
+    <div id="main_footer">
+      <div id="footer_content">
+       
+      </div>
+    
+      <ul id="social">
+        <li class="icon"><a href="#" class="fa fa-facebook"></a></li>
+        <li class="icon"><a href="#" class="fa fa-instagram"></a></li>
+        <li class="icon"><a href="#" class="fa fa-youtube"></a></li>
+        <li class="icon"><a href="#" class="fa fa-twitter"></a></li>
+        <li class="icon"><a href="#" class="fa fa-linkedin"></a></li>
+        <li><a href="#" class="fa fa-pinterest"></a></li>
+      </ul>
+      <hr class="gap" />
+        <div id="copyright">
+        <div>
+          <p id="lighter">&#169; Copyright <span class="bold">ConvoSpace</span>. All Rights Reserved <br> Designed
+            by <a id="rahul" href="https://github.com/Rahul0Nandal/Project" target="_blank">Rahul & Rohit</p>
+        </div>
+    </div>
+  </footer>
+  <script src="/script/chat.js"></script>
+</body>
+</html>

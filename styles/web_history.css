@@ -1,0 +1,89 @@
+body {
+    background-color: #242424; 
+    font-family: Arial, sans-serif;
+    background-image: url("/Resources/webscrapers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: transparent;
+    padding: 10px 0;
+    text-align: left;
+    display: flex;
+    height: 30px;
+    position: fixed;
+    margin-top: -150px;
+}
+header img{
+    size: 5px;
+    margin: 1px 10px;
+}
+h1{
+    font-size: 60px;
+    color: white;
+    margin: 150px 0px 0px 650px;
+}
+.upload-list {
+    background-color: transparent;
+    padding: 20px;
+    width: 700px;
+    margin: 5px 0px 0px 625px; 
+    max-height: 350px; 
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: white transparent;
+}
+.upload-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.upload-item ul li{
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.image-preview {
+    width: 700px;
+    height: 700px;
+    object-fit: cover; 
+    margin-right: 20px; 
+}
+.download-button {
+    background-color: darkorchid;
+    color: white;
+    padding: 15px 40px;
+    font-size: 25px;
+    border: none;
+    border-radius: 35px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+.file-info {
+    color: white;
+    font-size: 35px;
+    display: inline-block; 
+    margin-top:20px;
+    margin-right: 50px; 
+}
+.download-button:hover {
+    background-color: #9b30ff; 
+}
+footer {
+    margin-top: 100px;
+    background-color: black; 
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    margin-left: -10px;
+    width: 110%;
+}
+footer a {
+    margin: none; 
+}
+footer img {
+    width: auto;
+    height: 30px;
+    margin: 0 20px;
+}

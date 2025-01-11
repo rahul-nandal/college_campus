@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assets Upload</title>
+    <link rel="stylesheet" type="text/css" href="/styles/assets.css">
+</head>
+<body>
+    <header>
+        <a href="/"><img src="/Resources/favicon.ico" alt="Home"></a>
+    </header>
+    <div class="container">
+        <h1>Upload Assets</h1>
+        <form action="/ide/assets/upload" method="post" enctype="multipart/form-data">
+            <label for="file-upload" class="file-upload-container">
+                <i class="fas fa-cloud-upload-alt"></i> Click to upload
+                <input id="file-upload" type="file" name="file" multiple>
+            </label>
+            <p id="file-count">No files selected</p>
+            <div class="button-container">
+                <a href="/ide/assets/history" class="history-button">Assets</a>
+                <button type="submit" class="upload-button">Upload</button>
+            </div>
+            <a href="/ide?project_name=Homepage" class="ide-button">Back to IDE</a>
+        </form>
+    </div>
+    <footer>
+        <a href="https://github.com/tanubhavjuneja" style="margin-left: -20px;"><img src="/Resources/github.png" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/tanubhav-juneja-119211244/" style="margin-left: -10px;"><img src="/Resources/linkedin.png" alt="LinkedIn"></a>
+        <a href="https://buymeacoffee.com/tanubhavjuneja"><img src="/Resources/buymeacoffee.png" alt="BuyMeACoffee"></a>
+        <a href="https://www.instagram.com/tanubhavjuneja"><img src="/Resources/instagram.png" alt="Instagram"></a>
+        <a href="https://wa.me/7827139401"><img src="/Resources/whatsapp.png" alt="WhatsApp"></a>
+    </footer>
+    <script src="/script/notes.js"></script>
+</body>
+</html>

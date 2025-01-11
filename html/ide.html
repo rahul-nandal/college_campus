@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDE</title>
+    <link rel="stylesheet" type="text/css" href="/styles/ide.css">
+</head>
+<body>
+    <div class="button-container">
+        <a href="/"><img src="/Resources/favicon.ico" alt="Home" style="margin-top: 10px;"></a>
+        <div class="button-group">
+            <button onclick="callchatgpt()"><img src="/Resources/ChatGPT.png" style="margin-right: -10px;" alt="ChatGPT"></button>
+            <button onclick="switchLanguage('html')"><img src="/Resources/html.webp" style="width:62px;height: 52px; margin-right: -10px;" alt="HTML"></button>
+            <button onclick="switchLanguage('css')"><img src="/Resources/css.png" alt="CSS"></button>
+            <button onclick="switchLanguage('js')"><img src="/Resources/js.png" alt="JS"></button>
+            <button onclick="renderCode()"><img src="/Resources/render.png" alt="Render"></button>
+            <button onclick="addPage()"><img src="/Resources/add.png" alt="Add Page"></button>
+            <button onclick="openPage()"><img src="/Resources/list.png" alt="Page List"></button>
+            <button onclick="openAssets()"><img src="/Resources/assets.png" alt="Assets"></button>
+        </div>
+    </div>
+    <div class="editor-container">
+        <textarea id="code" placeholder=""></textarea>
+    </div>
+    <footer>
+        <a href="https://github.com/tanubhavjuneja" style="margin-left: -20px;"><img src="/Resources/github.png" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/tanubhav-juneja-119211244/" style="margin-left: -10px;"><img src="/Resources/linkedin.png" alt="LinkedIn"></a>
+        <a href="https://buymeacoffee.com/tanubhavjuneja"><img src="/Resources/buymeacoffee.png" alt="BuyMeACoffee"></a>
+        <a href="https://www.instagram.com/tanubhavjuneja"><img src="/Resources/instagram.png" alt="Instagram"></a>
+        <a href="https://wa.me/7827139401"><img src="/Resources/whatsapp.png" alt="WhatsApp"></a>
+    </footer>
+    <script src="/script/ide.js"></script>
+</body>
+</html>

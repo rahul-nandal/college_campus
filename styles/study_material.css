@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    /* margin-top: -10vh; */
+    /* margin-bottom: 10vw; */
+    /* padding: 0; */
+    /* background-image: url("/Resources/kindle.jpg"); */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background: white;
+}
+::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+header {
+    background-color: transparent;
+    /* padding: 10px 0; */
+    text-align: left;
+    /* display: flex; */
+    height: 30px;
+    /* position: fixed; */
+    /* margins-top: -300px; */
+}
+header img{
+    size: 5px;
+    margin: 1px 10px;
+}
+.file-container{
+    /* margin: 410px 0px 400px 300px; */
+}
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 1px 10px;
+}
+.book {
+    background-color: rgb(73, 164, 192);
+
+    padding: 1vh;
+    margin: 1vh;
+    margin-top: 8vh;
+    margin-left: 3vw;
+    border-radius: 30px;
+    width: 90vw;
+}
+.book h2 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 3vh;
+    margin-left: 2vw;
+}
+.books{
+text-align: center;
+text-decoration: none;
+font-weight: 800;
+color: black;
+font-size: large;}
+.book p {
+    color: #AFEEEE ;
+    font-size: 22px;
+    line-height: 1.5;
+    margin-left: 3vw;
+}
+#lastbook{
+    margin-bottom: 15vh;
+}
+button {
+    background-color: lightblue;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 3vw;
+    margin-bottom: 4vh;
+}
+button:hover {
+    background-color: #8a2be2;
+}
+footer {
+    margin-top: 100px;
+    margin-left: -50px;
+    background-color: black; 
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 110%;
+}
+footer a {
+    margin: none; 
+}
+footer img {
+    width: auto;
+    height: 30px;
+    margin: 0 20px;
+}

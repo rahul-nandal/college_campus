@@ -1,0 +1,79 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-image: url("/Resources/ide.jpg");
+    background-size: 2100px;
+    background-repeat:no-repeat;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: transparent;
+    padding: 10px 0;
+    text-align: left;
+    display: flex;
+    height: 30px;
+    position: fixed;
+    margin-top: -100px;
+}
+header img{
+    size: 5px;
+    margin: 1px 10px;
+}
+.open-page-heading {
+    font-size: 60px;
+    color: white;
+    margin:100px 0px 0px 360px;
+}
+.page-list-container {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 15px;
+    width: 1200px;
+    height: 400px;
+    margin: 20px 0px 0px 360px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: white transparent;
+}
+.page-list {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 15px; 
+    margin: 10px 30px; 
+}
+.page-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.page-item ul li {
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.page-link {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    cursor: pointer;
+}
+.page-link:hover {
+    text-decoration: underline;
+}
+footer {
+    margin-top: 100px;
+    background-color: black; 
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    margin: none; 
+}
+footer img {
+    width: auto;
+    height: 30px;
+    margin: 0 20px;
+}
